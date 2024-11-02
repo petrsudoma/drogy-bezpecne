@@ -1,0 +1,14 @@
+.header {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-size: 1.7rem;
+}
+
+.burger {
+  font-size: 2rem;
+}
