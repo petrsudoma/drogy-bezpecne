@@ -1,0 +1,41 @@
+.wrapper {
+  display: block;
+}
+
+.drawer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+  font-size: 1.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 2.5rem;
+  font-size: 1.4rem;
+}
+
+.burgerIcon {
+  font-size: 2rem;
+  position: absolute;
+  right: 10%;
+  top: 1.65rem;
+  cursor: pointer;
+}
+
+.crossIcon {
+  font-size: 2rem;
+  position: absolute;
+  right: 10%;
+  top: 1.65rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    display: none;
+  }
+}

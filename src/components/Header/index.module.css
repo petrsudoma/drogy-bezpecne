@@ -9,6 +9,12 @@
   font-size: 1.7rem;
 }
 
-.burger {
-  font-size: 2rem;
+.links {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .links {
+    display: block;
+  }
 }
